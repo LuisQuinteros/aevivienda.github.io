@@ -7,6 +7,7 @@
     <title>Contactenos</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/stylefooter.css">
+    <link rel="stylesheet" href="scss/contactenos.css">
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -34,16 +35,16 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="mision y vision.html">Misiòn y visiòn</a>
+              <a class="nav-link active" href="mision y vision.html" id="menu">Misiòn y visiòn</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="informacion.html">Informacion</a>
+              <a class="nav-link" href="informacion.html" id="menu">Informacion</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="tipologia.html">Tipologìa</a>
+                <a class="nav-link" href="tipologia.html" id="menu">Tipologìa</a>
               </li>
             <li class="nav-item">
-              <a class="nav-link "href="contactenos.html">Contactenos</a>
+              <a class="nav-link "href="contactenos.html" id="menu">Contactenos</a>
             </li>
           </ul>
           <form class="d-flex" role="search">
@@ -59,7 +60,7 @@
         <div class="row gx-0">
             <div class="col-md-6 text-center text-lg-start mb-2 mb-lg-0">
                 <div class="d-inline-flex align-items-center">
-                    <small class="py-2"><i class="far fa-clock text-primary me-2"></i>Horario de Atencion: Lunes - Viernes : 6.00 am - 10.00 pm, Domingos Cerrado</small>
+                    <small class="py-2"><i class="far fa-clock text-primary me-2" id="horario"></i>Horario de Atencion: Lunes - Viernes : 6.00 am - 10.00 pm, Domingos Cerrado</small>
                 </div>
             </div>
             <div class="col-md-6 text-center text-lg-end">
@@ -110,7 +111,7 @@
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-6 wow slideInUp" data-wow-delay="0.3s">
-                    <form>
+                    <form  id="formulario">
                         <div class="row g-3">
                             <div class="col-12">
                                 <input type="text" class="form-control border-0 bg-light px-4" id="nombre" placeholder="Nombre" style="height: 55px;">
@@ -125,8 +126,8 @@
                                 <textarea class="form-control border-0 bg-light px-4 py-3" rows="5" id="mensaje" placeholder="Mensaje"></textarea>
                             </div>
                             <div class="col-12">
-                                <button onclick="enviarmensaje()" class="btn btn-primary w-45 py-3" type="button">Enviar Mensaje</button>
-                                <button onclick="listarmensaje()" class="btn btn-primary w-45 py-3" type="button">Listar Mensaje</button>
+                                <button onclick="enviarmensaje()" class="btn btn-primary w-45 py-3" type="button" id="btn">Enviar Mensaje</button>
+                                <button onclick="listarmensaje()" class="btn btn-primary w-45 py-3" type="button" id="btn">Listar Mensaje</button>
                             </div>
                         </div>
                     </form>
