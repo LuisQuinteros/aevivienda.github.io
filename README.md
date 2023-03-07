@@ -1,4 +1,4 @@
-         GRUPO Nº 6
+GRUPO Nº 6
 Integrantes:
 Luis Alberto Quinteros Coria
 Adalit Moya Alvarez
