@@ -1,11 +1,24 @@
 .navbar {
   background-color: rgb(95, 93, 93);
-  border: rgba(94, 94, 94, 0.836) solid 1px;
+  border: rgba(94, 94, 94, 0.836);
 }
 
-.imgnav {
-  border: solid 1px #dbdbdf;
-  border-radius: 5px;
-  margin-top: 2px;
-  margin-left: 80px;
+.log {
+  background-color: rgba(0, 0, 0, 0.74);
+}
+
+.nav3 {
+  background-color: rgba(0, 0, 0, 0.801);
+}
+
+@media (min-width: 768px) and (max-width: 950px) {
+  .navbar {
+    background-color: #c5eaff;
+  }
+  .log {
+    background-color: #c5eaff;
+  }
+  .nav3 {
+    background-color: #9bd6f8;
+  }
 }/*# sourceMappingURL=inicio.css.map */
