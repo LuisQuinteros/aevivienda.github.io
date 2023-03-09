@@ -1,3 +1,5 @@
+$primary-color:red;
+$p_color:violet;
 body {
  background-color:lightblue;
 }
@@ -14,5 +16,16 @@ font-size: 1.4rem;
 }
 img {
   border-radius: 50%;
+ 
+ h5 {
+    background-color:$primary-color);
+    text-decoration: underline;
+    font-family: fantasy;
 }
+}
+@media (min-width: 768px) and (max-width: 950px) {
+  h5 {
+    background-color: $p_color:viole;
+  }
+ 
 }/*# sourceMappingURL=tipologia.css.map */
