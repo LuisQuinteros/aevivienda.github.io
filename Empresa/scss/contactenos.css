@@ -33,4 +33,40 @@ button {
 #btn {
   color: black;
   font-weight: bold;
+}
+
+nav {
+  background-color: coral;
+}
+nav #inicio {
+  background-color: red;
+}
+nav #menunav {
+  color: aqua;
+}
+
+@media (min-width: 360px) and (max-width: 740px) {
+  #btn {
+    color: white;
+    font-weight: bold;
+  }
+}
+@media (min-width: 360px) and (max-width: 740px) {
+  .container {
+    background-color: white;
+    display: flex;
+    padding-top: 30px;
+  }
+}
+@media (min-width: 360px) and (max-width: 740px) {
+  nav {
+    background-color: white;
+  }
+  nav #inicio {
+    background-color: white;
+  }
+  nav #menunav {
+    color: black;
+    font-weight: bold;
+  }
 }/*# sourceMappingURL=contactenos.css.map */
