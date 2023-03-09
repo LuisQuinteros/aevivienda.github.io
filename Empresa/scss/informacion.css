@@ -7,6 +7,11 @@
   border: 1px solid rgba(11, 164, 79, 0.65);
 }
 
+.mycard {
+  display: flex;
+  justify-content: center;
+}
+
 .btn {
   --b: 3px; /* border thickness */
   --s: .45em; /* size of the corner */
@@ -37,7 +42,7 @@
   color: #fff;
 }
 
-@media (min-width: 0px) and (max-width: 916px) {
+@media (min-width: 0px) and (max-width: 991px) {
   .btn {
     align-self: center;
     background-color: #fff;
@@ -77,5 +82,15 @@
   }
   .card-title {
     color: green;
+  }
+}
+@media (min-width: 0px) and (max-width: 991px) {
+  .btn {
+    color: teal;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  .nav-link {
+    color: teal;
   }
 }/*# sourceMappingURL=informacion.css.map */
