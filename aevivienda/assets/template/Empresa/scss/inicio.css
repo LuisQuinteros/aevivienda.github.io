@@ -1,0 +1,75 @@
+.navbar {
+  background-color: rgb(95, 93, 93);
+  border: rgba(94, 94, 94, 0.836);
+}
+
+.log {
+  background-color: rgba(0, 0, 0, 0.74);
+}
+
+.nav3 {
+  background-color: rgba(0, 0, 0, 0.801);
+}
+
+.carousel {
+  border: rgba(0, 0, 0, 0.836) solid 1px;
+}
+
+.juego {
+  background: #bff2fc;
+}
+
+@media (min-width: 760px) and (max-width: 950px) {
+  .navbar {
+    background-color: #c5eaff;
+    border: #5494f5 solid 1px;
+  }
+  p {
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+  h5 {
+    font-family: "Times New Roman", Times, serif;
+  }
+  .log {
+    background-color: #c5eaff;
+  }
+  .nav3 {
+    background-color: #abd5ee;
+  }
+  .card-title {
+    color: #2e0bf8;
+  }
+  .carousel {
+    border: rgba(41, 6, 240, 0.836) solid 1px;
+  }
+  .btn {
+    background: #aaeffc;
+  }
+}
+@media (min-width: 260px) and (max-width: 740px) {
+  .navbar {
+    background-color: #adf7b9;
+    border: #35fa77 solid 1px;
+  }
+  .log {
+    background-color: #adf7b9;
+  }
+  .nav3 {
+    background-color: #3cd863;
+  }
+  .card-title {
+    color: #06e048;
+  }
+  .btn {
+    background: #6ef396;
+  }
+  p {
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+  h5 {
+    font-family: "Times New Roman", Times, serif;
+  }
+  a {
+    color: #5494f5;
+  }
+}/*# sourceMappingURL=inicio.css.map */
